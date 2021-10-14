@@ -369,7 +369,8 @@
     
     # Compil Blocknotify
     cd ~
-    hide_output git clone https://github.com/junecoin-project/june-pool-yiimp.git
+    hide_output git clone https://github.com/tttlproject/tttl-pool-yiimp.git
+    mv $HOME/tttl-pool-yiimp $HOME/yiimp 
     cd $HOME/yiimp/blocknotify
     sudo sed -i 's/tu8tu5/'$blckntifypass'/' blocknotify.cpp
     hide_output sudo make

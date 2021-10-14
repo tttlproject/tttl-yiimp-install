@@ -1,4 +1,4 @@
-## Install script for yiimp on Ubuntu Server 16.04 / 18.04 (use June's Yiimp)
+## Install script for yiimp on Ubuntu Server 16.04 / 18.04 (use TTTL's Yiimp)
 
 USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 16.04 / 18.04 !
 
@@ -10,7 +10,7 @@ Connect on your VPS =>
 - adduser pool sudo
 - su - pool
 - sudo apt -y install git
-- git clone https://github.com/junecoin-project/june-pool-yiimp.git
+- git clone https://github.com/tttlproject/tttl-pool-yiimp.git
 - cd yiimp_install_scrypt/
 - bash install.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
 - At the end, you MUST REBOOT to finalize installation...
